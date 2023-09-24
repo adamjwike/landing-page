@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  font-family: monospace;
+}
+
+.header {
+  background-color: orangered;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 5% 0px 5%;
+  color: white;
+  border-bottom: 2px solid black;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 25px;
+}
+
+.header a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+.header a:hover {
+  color: gold;
+}
+
+.callToAction {
+  background: orangered;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px 5% 50px 5%;
+}
+.callToAction img {
+  width: 300px;
+}
+
+.callToActionLeft {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  width: 50%;
+  gap: 20px;
+}
+
+.callToActionLeft h3 {
+  color: gold;
+  font-size: 40px;
+}
+
+.bottlesContent {
+  background: white;
+  padding: 100px 5% 100px 5%;
+}
+
+#bottlesTitle {
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 50px;
+  font-weight: bold;
+}
+.bottles {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+  gap: 30px;
+}
+
+.bottle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 200px;
+  border: 2px solid black;
+  background: gold;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+img {
+  width: 200px;
+  height: auto;
+  padding: 10px;
+}
+
+.quote {
+  background: #54200d;
+  color: white;
+  font-size: 40px;
+  padding: 100px 20% 100px 20%;
+}
+
+#quoteSource {
+  text-align: right;
+  font-size: 25px;
+  padding-top: 20px;
+}
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 5% 100px 5%;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bottomContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  background-color: greenyellow;
+  padding: 50px;
+  border-radius: 8px;
+  flex: 1 1 auto;
+  font-size: 20px;
+}
+
+.bottomContainerLeft .bottomContent h3 {
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+
+.bottomContent {
+  width: 75%;
+}
+
+button {
+  width: 150px;
+  padding: 8px 16px 8px 16px;
+  border-radius: 8px;
+  border: 1px solid black;
+  background: red;
+  color: white;
+  flex: 0 0 auto;
+  font-size: 18px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: orangered;
+  height: 50px;
+  color: white;
+  font-size: 14px;
+}
+
+button:hover {
+  color: black;
+  cursor: pointer;
+}
